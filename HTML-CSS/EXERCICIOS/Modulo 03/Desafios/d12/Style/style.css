@@ -20,7 +20,7 @@
 html, body{
     font-family: var(--fonte3);
     min-height: 100vh;
-    background-color: rgb(228, 193, 105);
+    background-color: rgb(255, 255, 255);
     
 }
 header{
@@ -47,32 +47,54 @@ header a:hover, footer a:hover{
     text-decoration: underline;
 }
 section{
-    padding-top: 10vh;
+    padding-top: 9vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: var(--fonte3);
+
+}
+section > p{
+    padding-bottom: 2em;
 }
 
 section.normal{
-    background-color: white;
+    background-color: rgba(254, 251, 239, 0.858);
     color: black;
 }
 
 section.imagem{
     background-color: rgb(53, 53, 53);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.637);
+    background-size: cover;
+    background-attachment: fixed;
     
     
 }
 
 section.imagem > p{
- background-color: rgba(0, 0, 0, 0.286);
+ background-color: rgba(0, 0, 0, 0.303);
  display: inline-block;
  padding: 5px;
+ text-shadow: 1px 1px 0px black;
+
+
 }
 
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+   
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    
+
+}
 footer{
     background-color: black;
     color: white;
