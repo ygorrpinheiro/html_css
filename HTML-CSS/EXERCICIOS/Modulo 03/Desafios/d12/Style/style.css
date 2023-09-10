@@ -69,7 +69,8 @@ section.imagem{
 
 section.imagem > p{
  background-color: rgba(0, 0, 0, 0.286);
- width: 400px;
+ display: inline-block;
+ padding: 5px;
 }
 
 footer{
